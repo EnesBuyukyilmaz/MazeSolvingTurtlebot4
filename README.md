@@ -10,5 +10,5 @@ Also turtlebot is able backtracking with the help of DFS algorithm and start sea
 
  ## Package Dependencies 
 
- ## How to Set Up
+ ## How to Build And Run The Project
 
