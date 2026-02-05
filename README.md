@@ -9,7 +9,9 @@ Also turtlebot is able backtracking with the help of DFS algorithm and start sea
 
 
  ## Package Dependencies 
- - Ros Humble is needed for that project
+ - Ros Humble
+ - Turtlebot4 humble version
+ - Gazebo Ignition
  ## How to Build And Run The Project
  - first clone the project into local `git clone https://github.com/EnesBuyukyilmaz/MazeSolvingTurtlebot4/tree/master`
  - build with colcon build `colcon build`
