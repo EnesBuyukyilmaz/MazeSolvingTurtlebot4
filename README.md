@@ -11,7 +11,10 @@ Also turtlebot is able backtracking with the help of DFS algorithm and start sea
  ## Package Dependencies 
  - Ros Humble is needed for that project
  ## How to Build And Run The Project
- - first clone the project into local git clone 
+ - first clone the project into local `git clone https://github.com/EnesBuyukyilmaz/MazeSolvingTurtlebot4/tree/master`
  - build with colcon build `colcon build`
- - add models  directory into turtlebot4 ignition laucnh package worlds directory
+ - add mazeModels into a world.sdf file that has been created by you , and add these world files also turtlebot4 ignition laucnh package worlds directory
  - run the command` ros2 launch turtlebot4_ignition_bringup turtlebot4_ignition.launch.py world:=maze6x6` for the 10x10 maze run the command with the argument of world:=maxe10x10
+ - after gazebo initiliazed you can run the command `ros2 run mazePathFindingTurtleBot main` in order to start the node and you can see all the ourputs from the terminal while robot is navigating
+
+
