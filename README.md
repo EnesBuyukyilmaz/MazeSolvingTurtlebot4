@@ -9,6 +9,9 @@ Also turtlebot is able backtracking with the help of DFS algorithm and start sea
 
 
  ## Package Dependencies 
-
+ - Ros Humble is needed for that project
  ## How to Build And Run The Project
-
+ - first clone the project into local git clone 
+ - build with colcon build `colcon build`
+ - add models  directory into turtlebot4 ignition laucnh package worlds directory
+ - run the command` ros2 launch turtlebot4_ignition_bringup turtlebot4_ignition.launch.py world:=maze6x6` for the 10x10 maze run the command with the argument of world:=maxe10x10
